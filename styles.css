@@ -2,3 +2,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
+.name-highlight {
+    color: #0c729b9a;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}

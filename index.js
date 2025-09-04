@@ -2,7 +2,7 @@
 
 function greeting() {
     const name = document.getElementById("nameInput").value
-    document.getElementById("greeting").innerHTML = "Hello there " + name + "! " + "Did you know that " + randomFact()
+    document.getElementById("greeting").innerHTML = "Hello there <span class='name-highlight'>" + name + "</span>" + "! " + "Did you know that " + randomFact()
     document.getElementById("text").innerHTML = "Atleast you do now 😎"
 }
 
